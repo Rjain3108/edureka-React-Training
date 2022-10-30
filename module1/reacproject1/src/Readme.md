@@ -1,3 +1,18 @@
+- [# Installation](#-installation)
+- [# Resources](#-resources)
+- [# Prequisite (Good to have)](#-prequisite-good-to-have)
+- [# Diff between Angular and React](#-diff-between-angular-and-react)
+- [# Architecture](#-architecture)
+  - [Component Base Architecture](#component-base-architecture)
+  - [Single Page Architecture](#single-page-architecture)
+- [# Concept of JavaScript](#-concept-of-javascript)
+- [# Basic of React](#-basic-of-react)
+- [npm => Node Package Manager](#npm--node-package-manager)
+- [JSON=> Javascript Object Notation](#json-javascript-object-notation)
+- [package.json => backbone of application](#packagejson--backbone-of-application)
+
+
+
 # Installation
 ----------------
 To install node.js [Click here](https://nodejs.org/en/)
@@ -6,16 +21,18 @@ To install visual studio code [Click here](https://code.visualstudio.com)
 MEAN: MongoDb, ExpressJs, AngularJs, NodeJs
 MERN: MongoDb, ExpressJs, ReactJs, NodeJs
 ````
-### Resources
+# Resources
+------
 1. codecademy.com
 2. w3schools.com
    
-### Prequisite (Good to have)
+# Prequisite (Good to have)
+-------
 1. JavaScript
 2. Bootstrap
 3. EcmaScript (ES5 and ES6)
 
-## Diff between Angular and React
+# Diff between Angular and React
 ----
 
 | Angular       | React    |
@@ -29,16 +46,15 @@ MERN: MongoDb, ExpressJs, ReactJs, NodeJs
 ### Component Base Architecture
 - We have one page which stand for layout (common part like: Header,Footer)
 - For each page we make one component (Like Home,Layout,Contact,About and others)
--  One component have its own html,css and logic
+- One component have its own html,css and logic
 
 ### Single Page Architecture
 - Page will not refresh
 - Application are faster
-- Increase Reusability
 
 --------------------------------
 # Concept of JavaScript
------------
+--------------------------------
 **ES5**
 var => Redeclare and Reassign
 *function define:* 
@@ -101,6 +117,8 @@ num.filter((data)=>{return data*2})
 ````
 
 --------------------
+# Basic of React
+--------------------
 ## npm => Node Package Manager
 > help us to build application
 > have more tha 12L+ package
@@ -118,7 +136,7 @@ we have 2 type of dependency
 }
 ````
 
-## package.json** => backbone of application
+## package.json => backbone of application
 **How to install**
 1. We must install node.js
 2. navigate to folder using cmd/terminal
@@ -126,11 +144,11 @@ we have 2 type of dependency
 4. answer all question
 5. yes
 
-**step to install local package**
+**Step to install local package**
 1. navigate to folder using cmd/terminal
 2. type-> npm install {package}
 
-**step to install global package**
+**Step to install global package**
 
 Win
 1. Run cmd as admin
@@ -140,7 +158,7 @@ Mac/Linux
 1. open terminal
 2. sudo npm i -g create-react-app
 
-**step to create react app**
+**Step to create react app**
 
 Win
 1. Run cmd as admin
