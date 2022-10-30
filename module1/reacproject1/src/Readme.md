@@ -64,16 +64,19 @@ const => we can not redecalre as well reassign
 
 **New mathod to iterate through array:**
 > This is same like dataweave. we have 2 functions 
- - **map**
- - **filter**
+ - map
+ - filter
 
 Example
-map ----> use to apply operation
+**map** ----> use to apply operation
 `var a = [7,'Rishabh',true]`
 `a.map((data)=>{console.log(data)})`
+
 `var num = [0,1,2,3]`
 `num.map((data)=>{return data*2})`
-filter ----> Only filter values
+
+
+**filter** ----> Only filter values
 `var num = [0,1,2,3]`
 `num.filter((data)=>{return data*2})`
 
@@ -95,37 +98,37 @@ we have 2 type of dependency
 
 ## package.json** => backbone of application
 **How to install**
-> We must install node.js
-> navigate to folder using cmd/terminal
-> npm init
-> answer all question
-> yes
+1. We must install node.js
+2. navigate to folder using cmd/terminal
+3. npm init
+4. answer all question
+5. yes
 
 **step to install local package**
-> navigate to folder using cmd/terminal
-> type-> npm install {package}
+1. navigate to folder using cmd/terminal
+2. type-> npm install {package}
 
 **step to install global package**
 Win
-> Run cmd as admin
-> npm i -g create-react-app
+1. Run cmd as admin
+2. npm i -g create-react-app
 
 Mac/Linus
-> open terminal
-> sudo npm i -g create-react-app
+1. open terminal
+2. sudo npm i -g create-react-app
 
 **step to create react app**
 Win
-> Run cmd as admin
-> npm i -g create-react-app
-> Navigate to folder where you want to create using cmd
-> create-react-app myapp
-> cd myapp
-> npm start
+1. Run cmd as admin
+2. npm i -g create-react-app
+3. Navigate to folder where you want to create using cmd
+4. create-react-app myapp
+5. cd myapp
+6. npm start
 
 Mac/Linux
-> open terminal
-> sudo npm i -g create-react-app
-> Navigate to folder where you want to create using terminal
-> create-react-app myapp
-> npm start
+1. open terminal
+2. sudo npm i -g create-react-app
+3. Navigate to folder where you want to create using terminal
+4. create-react-app myapp
+5. npm start
