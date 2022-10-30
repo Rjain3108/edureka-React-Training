@@ -41,14 +41,22 @@ MERN: MongoDb, ExpressJs, ReactJs, NodeJs
 -----------
 **ES5**
 var => Redeclare and Reassign
-*function define:*  `function add(a,b) {`
-`   return a+b`
-`}`
+*function define:* 
+
+```
+function add(a,b) {
+  return a+b
+}
+```
 
 **ES6**
 let => We can not redeclare but we can reassign
 const => we can not redecalre as well reassign
-*function define:*  `const add = (a,b) => {return a+b}`
+*function define:*
+
+```
+const add = (a,b) => {return a+b}
+```
 
 **Java Script Data type Supprt**
 - String => "String", 'string'
@@ -59,8 +67,11 @@ const => we can not redecalre as well reassign
 - In Javascript Array is hetrogenous e.g., [7,'Rishabh',true]
 
 **Old method to Iterate through array:**
-`var a = [7,'Rishabh',true]`
-`for(var i=0; i < a.length; i++) {console.log(a[i])}`
+
+````
+var a = [7,'Rishabh',true]
+for(var i=0; i < a.length; i++) {console.log(a[i])}
+````
 
 **New mathod to iterate through array:**
 > This is same like dataweave. we have 2 functions 
@@ -68,21 +79,30 @@ const => we can not redecalre as well reassign
  - filter
 
 Example
-**map** ----> use to apply operation
-`var a = [7,'Rishabh',true]`
-`a.map((data)=>{console.log(data)})`
 
-`var num = [0,1,2,3]`
-`num.map((data)=>{return data*2})`
+**map** ----> use to apply operation
+
+````
+var a = [7,'Rishabh',true]
+a.map((data)=>{console.log(data)})
+````
+
+```
+var num = [0,1,2,3]
+num.map((data)=>{return data*2})
+````
 
 
 **filter** ----> Only filter values
-`var num = [0,1,2,3]`
-`num.filter((data)=>{return data*2})`
+
+````
+var num = [0,1,2,3]
+num.filter((data)=>{return data*2})
+````
 
 --------------------
 ## npm => Node Package Manager
-> help us to buil application
+> help us to build application
 > have more tha 12L+ package
 > it is open source
 
@@ -91,10 +111,12 @@ we have 2 type of dependency
 2. global => build create test
 
 ## JSON=> Javascript Object Notation
-`{`
- `   "name": "joe",`
- `   "class": "2nd"`
-`}`
+````
+{
+    "name": "joe",
+    "class": "2nd"
+}
+````
 
 ## package.json** => backbone of application
 **How to install**
@@ -109,15 +131,17 @@ we have 2 type of dependency
 2. type-> npm install {package}
 
 **step to install global package**
+
 Win
 1. Run cmd as admin
 2. npm i -g create-react-app
 
-Mac/Linus
+Mac/Linux
 1. open terminal
 2. sudo npm i -g create-react-app
 
 **step to create react app**
+
 Win
 1. Run cmd as admin
 2. npm i -g create-react-app
