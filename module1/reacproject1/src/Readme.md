@@ -12,7 +12,6 @@
 - [package.json => backbone of application](#packagejson--backbone-of-application)
 
 
-
 # Installation
 ----------------
 To install node.js [Click here](https://nodejs.org/en/)
@@ -68,6 +67,7 @@ function add(a,b) {
 **ES6**
 let => We can not redeclare but we can reassign
 const => we can not redecalre as well reassign
+
 *function define:*
 
 ```
@@ -138,11 +138,11 @@ we have 2 type of dependency
 
 ## package.json => backbone of application
 **How to install**
-1. We must install node.js
-2. navigate to folder using cmd/terminal
-3. npm init
-4. answer all question
-5. yes
+  1. We must install node.js
+  2. navigate to folder using cmd/terminal
+  3. npm init
+  4. answer all question
+  5. yes
 
 **Step to install local package**
 1. navigate to folder using cmd/terminal
@@ -151,26 +151,26 @@ we have 2 type of dependency
 **Step to install global package**
 
 Win
-1. Run cmd as admin
-2. npm i -g create-react-app
+  1. Run cmd as admin
+  2. npm i -g create-react-app
 
 Mac/Linux
-1. open terminal
-2. sudo npm i -g create-react-app
+  1. open terminal
+  2. sudo npm i -g create-react-app
 
 **Step to create react app**
 
 Win
-1. Run cmd as admin
-2. npm i -g create-react-app
-3. Navigate to folder where you want to create using cmd
-4. create-react-app myapp
-5. cd myapp
-6. npm start
+  1. Run cmd as admin
+  2. npm i -g create-react-app
+  3. Navigate to folder where you want to create using cmd
+  4. create-react-app myapp
+  5. cd myapp
+  6. npm start
 
 Mac/Linux
-1. open terminal
-2. sudo npm i -g create-react-app
-3. Navigate to folder where you want to create using terminal
-4. create-react-app myapp
-5. npm start
+  1. open terminal
+  2. sudo npm i -g create-react-app
+  3. Navigate to folder where you want to create using terminal
+  4. create-react-app myapp
+  5. npm start
