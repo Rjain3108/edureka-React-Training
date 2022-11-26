@@ -1,11 +1,13 @@
-- [Installation](#installation)
-- [Resources](#resources)
-- [Prequisite (Good to have)](#prequisite-good-to-have)
-- [Diff between Angular and React](#diff-between-angular-and-react)
-- [Architecture](#architecture)
+- [Module 1](#module-1)
+  - [Introduction](#introduction)
+    - [Installation](#installation)
+    - [Resources](#resources)
+    - [Prequisite (Good to have)](#prequisite-good-to-have)
+    - [Diff between Angular and React](#diff-between-angular-and-react)
+  - [Architecture](#architecture)
     - [Component Base Architecture](#component-base-architecture)
     - [Single Page Architecture](#single-page-architecture)
-- [Concept of JavaScript](#concept-of-javascript)
+  - [Concept of JavaScript](#concept-of-javascript)
     - [ES5](#es5)
     - [ES6](#es6)
     - [Java Script Data type Supprt](#java-script-data-type-supprt)
@@ -14,10 +16,10 @@
     - [New mathod to iterate through array:](#new-mathod-to-iterate-through-array)
     - [map ----\> use to apply operation](#map------use-to-apply-operation)
     - [filter ----\> Only filter values](#filter------only-filter-values)
-- [Basic of React](#basic-of-react)
-  - [npm =\> Node Package Manager](#npm--node-package-manager)
-  - [JSON=\> Javascript Object Notation](#json-javascript-object-notation)
-  - [package.json =\> backbone of application](#packagejson--backbone-of-application)
+  - [Basic of React](#basic-of-react)
+    - [npm =\> Node Package Manager](#npm--node-package-manager)
+    - [JSON=\> Javascript Object Notation](#json-javascript-object-notation)
+    - [package.json =\> backbone of application](#packagejson--backbone-of-application)
     - [How to install](#how-to-install)
     - [Step to install local package](#step-to-install-local-package)
     - [Step to install global package](#step-to-install-global-package)
@@ -27,7 +29,14 @@
     - [Component:](#component)
 
 
-# Installation
+----------
+# Module 1
+----------
+
+## Introduction
+----------------
+
+### Installation
 ----------------
 To install node.js [Click here](https://nodejs.org/en/)
 To install visual studio code [Click here](https://code.visualstudio.com)
@@ -35,18 +44,18 @@ To install visual studio code [Click here](https://code.visualstudio.com)
 MEAN: MongoDb, ExpressJs, AngularJs, NodeJs
 MERN: MongoDb, ExpressJs, ReactJs, NodeJs
 ````
-# Resources
+### Resources
 ------
 1. codecademy.com
 2. w3schools.com
    
-# Prequisite (Good to have)
+### Prequisite (Good to have)
 -------
 1. JavaScript
 2. Bootstrap
 3. EcmaScript (ES5 and ES6)
 
-# Diff between Angular and React
+### Diff between Angular and React
 ----
 
 | Angular       | React    |
@@ -55,7 +64,8 @@ MERN: MongoDb, ExpressJs, ReactJs, NodeJs
 | Working on actual DOM | Working on Virtual DOM|
 | Multipage Application | SinglePage application|
 
-# Architecture
+-----------------------
+## Architecture
 -----------------------
 ### Component Base Architecture
 - We have one page which stand for layout (common part like: Header,Footer)
@@ -67,7 +77,7 @@ MERN: MongoDb, ExpressJs, ReactJs, NodeJs
 - Application are faster
 
 --------------------------------
-# Concept of JavaScript
+## Concept of JavaScript
 --------------------------------
 
 ### ES5
@@ -131,9 +141,9 @@ num.filter((data)=>{return data*2})
 ````
 
 --------------------
-# Basic of React
+## Basic of React
 --------------------
-## npm => Node Package Manager
+### npm => Node Package Manager
 > help us to build application
 > have more tha 12L+ package
 > it is open source
@@ -142,7 +152,7 @@ we have 2 type of dependency
 1. local
 2. global => build create test
 
-## JSON=> Javascript Object Notation
+### JSON=> Javascript Object Notation
 ````
 {
     "name": "joe",
@@ -150,7 +160,8 @@ we have 2 type of dependency
 }
 ````
 
-## package.json => backbone of application
+### package.json => backbone of application
+
 ### How to install
   1. We must install node.js
   2. navigate to folder using cmd/terminal
